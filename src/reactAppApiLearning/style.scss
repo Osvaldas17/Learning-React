@@ -1,0 +1,173 @@
+.mainWrapper1 {
+  padding: 10px 50px 50px 50px;
+}
+.dataSubWrapper1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+  background-color: white;
+  border-radius: 11px;
+  transition: 0.2s ease-in-out;
+  &:hover {
+    background-color: rgb(29, 145, 26);
+  }
+}
+.locationWrapper1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.locationWrapper1-1 {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #776054;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+}
+.dataSubWrapper1-1 {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  justify-content: space-around;
+  padding: 15px;
+  width: 33%;
+}
+.dataSubWrapper1-2 {
+  width: 300px;
+  height: 300px;
+}
+.dataSubWrapper1-2-img {
+  border-radius: 0 10px 10px 0;
+}
+.hyperMegaMainWrapper {
+  width: 100%;
+  color: rgb(40,44,52);
+}
+.logo-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 400px;
+  height: 200px;
+}
+.navBar-1 {
+  display: flex;
+  justify-content: space-around;
+}
+.description1 {
+  color: rgb(40,44,52);
+}
+.description2 {
+  color: rgb(68, 68, 134);
+  cursor: pointer;
+  &:hover {
+    color: rgb(180,217,179);
+  }
+}
+.h1Inhabitants {
+  color: white;
+  padding: 10px;
+  font-family: monospace;
+}
+.inhabitantsCon {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.inhabitantsSubCon {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(26,137,23);
+  transition: 0.2s ease-in-out;
+  &:hover {
+    background-color: rgb(89,149,183);
+    transform: scale(1.03);
+  }
+}
+.inhabitantsImg {
+  height: 100%;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+.episodesCon {
+  min-height: 1000px;
+  margin-bottom: 100px;
+}
+.episodesSubCon {
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.episodesHeader {
+  display: flex;
+  color: white;
+  background-color: rgb(89,149,183);
+  justify-content: space-between;
+  padding: 20px 10px;
+  position: sticky;
+  top: 0;
+}
+.overHeaderEpisodesText {
+  color: white;
+  padding: 10px;
+}
+.selectedEp {
+  color: rgb(26,137,23);
+}
+.click-for-more-characters {
+  font-weight: bold;
+  color: rgb(254,232,109);
+  cursor: pointer;
+  &:hover {
+    color: rgb(186,104,200);
+    transform: scale(1.03);
+  }
+}
+
+//UTILITIES
+
+.m-20 {
+  margin: 20px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-5 {
+  padding: 5px;
+}
+.w-20 {
+  width: 20%;
+}
+.w-30 {
+  width: 30%;
+}
+.w-10 {
+  width: 10%;
+}
+.text-end {
+  text-align: end;
+}
+.position-center {
+  display: flex;
+  justify-content: center;
+}

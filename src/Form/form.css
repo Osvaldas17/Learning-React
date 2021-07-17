@@ -1,0 +1,46 @@
+* {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #3a424a;
+    border-radius: 5px;
+    box-shadow: 0 1px 14px 2px rgba(58,66,74,0.4);
+    -webkit-box-shadow: 0 1px 14px 2px rgba(58,66,74,0.4);
+    -moz-box-shadow: 0 1px 14px 2px rgba(58,66,74,0.4);
+}
+label {
+    margin: 10px;
+}
+.w-100 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navBar {
+    display: flex;
+    justify-content: center;
+}
+.page-name {
+    text-align: center;
+}
+.dataRender {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 2px solid rgba(58,66,74,0.4);
+}
+.formData {
+    display: flex;
+    width: 100%;
+}
+.m5px {
+    margin: 5px;
+}
+.w25 {
+    width: 25%;
+}
+.border {
+    border: 1px solid rgb(79, 87, 103);
+}

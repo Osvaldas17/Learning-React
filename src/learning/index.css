@@ -1,0 +1,26 @@
+
+td {
+    padding: 10px;
+    width: 20%;
+}
+tr {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    align-items: center;
+}
+table {
+    display: flex;
+    justify-content: center;
+}
+tbody {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+}

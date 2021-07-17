@@ -1,0 +1,10 @@
+.gameCon {
+    text-align: center;
+}
+.gameCube {
+    width: 50px;
+    height: 50px;
+    background-color: #fff16e;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,56 @@
+.CubeDiv {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 800px;
+}
+.catWrap {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+.maxImg {
+    max-height: 100%;
+    max-width: 100%;
+}
+.m-10 {
+    margin: 10px;
+}
+.smCubeTasks {
+    width: 40px;
+    height: 40px;
+    background-color: #fff16e;
+    margin: 5px;
+}
+.parentSmCubeTasks {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.conHardTask {
+    height: 800px;
+    width: 800px;
+    background-color: #fff16e;
+    display: flex;
+    flex-wrap: wrap;
+}
+.task-5-container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: stretch;
+}
+.task-5-cell {
+    flex: 1;
+    width: 100%;
+    min-width: 50%;
+    min-height: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: stretch;
+}
